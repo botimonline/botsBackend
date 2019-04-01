@@ -41,7 +41,3 @@ export interface SignedInfo {
   adminId: number;
   scope: Scopes;
 }
-
-export interface UserUpdate {
-  setStatus: Status;
-}
